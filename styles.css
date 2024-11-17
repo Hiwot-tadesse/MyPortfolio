@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #de18b0;
+    color: rgb(241, 239, 250);
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    padding: 2em;
+}
+
+#about, #projects, #contact {
+    background-color: #e6e0e8;
+    margin: 1em 0;
+}
+
+.project {
+    margin: 1em 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 0 1em;
+    }
+}
